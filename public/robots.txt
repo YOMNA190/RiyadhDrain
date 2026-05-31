@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://almohandis-sewage.com/sitemap.xml
+Sitemap: https://riyadh-drain.vercel.app/sitemap.xml
