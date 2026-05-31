@@ -52,7 +52,7 @@ export default function Footer() {
 
     return () => {
       ScrollTrigger.getAll().forEach((st) => {
-        if (st.vars.trigger && (section?.contains(st.vars.trigger as Element) || st.vars.trigger === section)) {
+        if (st.vars.trigger && (cta?.contains(st.vars.trigger as Element) || st.vars.trigger === cta)) {
           st.kill();
         }
       });

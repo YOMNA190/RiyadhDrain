@@ -55,8 +55,9 @@ export default function Services() {
   const cardsRef = useRef<(HTMLDivElement | null)[]>([]);
 
   useEffect(() => {
+    const section = sectionRef.current;
     const cards = cardsRef.current.filter(Boolean);
-    if (cards.length === 0) return;
+    if (!section || cards.length === 0) return;
 
     cards.forEach((card, i) => {
       gsap.fromTo(
