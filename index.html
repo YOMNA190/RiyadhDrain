@@ -27,9 +27,22 @@
       gtag('config', 'AW-18201263866');
     </script>
     
-    <!-- Event snippet for عميل مهتم للمكالمات الهاتفية conversion page -->
+    <!-- Event snippet for انقر للاتصال conversion page In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
     <script>
-      gtag('event', 'conversion', {'send_to': 'AW-18201263866/UDRmCLGb6rYcEPr9hOdD'});
+      function gtag_report_conversion(url) {
+        var callback = function () {
+          if (typeof(url) != 'undefined') {
+            window.location = url;
+          }
+        };
+        gtag('event', 'conversion', {
+          'send_to': 'AW-18201263866/uHJTCIuD6rYcEPr9hOdD',
+          'value': 1.0,
+          'currency': 'EGP',
+          'event_callback': callback
+        });
+        return false;
+      }
     </script>
 
     <!-- Open Graph -->

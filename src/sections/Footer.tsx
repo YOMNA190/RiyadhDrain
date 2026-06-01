@@ -84,6 +84,7 @@ export default function Footer() {
           <div className="flex flex-wrap items-center justify-center gap-4">
             <a
               href="tel:+966509641986"
+              onClick={() => (window as any).gtag_report_conversion?.('tel:+966509641986')}
               className="inline-flex items-center gap-3 bg-clean-blue text-white px-10 py-5 rounded-pill text-xl font-medium hover:bg-clean-blue/90 transition-all duration-300 hover:scale-[0.98] active:scale-95 shadow-card"
             >
               <Phone className="w-6 h-6" />
@@ -123,6 +124,7 @@ export default function Footer() {
               <div className="flex items-center gap-3">
                 <a
                   href="tel:+966509641986"
+                  onClick={() => (window as any).gtag_report_conversion?.('tel:+966509641986')}
                   className="w-10 h-10 rounded-full bg-clean-blue/20 flex items-center justify-center hover:bg-clean-blue/40 transition-colors duration-300"
                   aria-label="اتصل بنا"
                 >
