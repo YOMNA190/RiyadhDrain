@@ -35,10 +35,15 @@
             window.location = url;
           }
         };
+        // تتبع إجراء "انقر للاتصال"
         gtag('event', 'conversion', {
           'send_to': 'AW-18201263866/uHJTCIuD6rYcEPr9hOdD',
           'value': 1.0,
-          'currency': 'EGP',
+          'currency': 'EGP'
+        });
+        // تتبع إجراء "المكالمات (عمليات التحميل)"
+        gtag('event', 'conversion', {
+          'send_to': 'AW-18201263866/UDRmCLGb6rYcEPr9hOdD',
           'event_callback': callback
         });
         return false;
