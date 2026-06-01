@@ -101,14 +101,14 @@ export default function Hero() {
 
           <div ref={buttonsRef} className="flex flex-wrap gap-4">
             <a
-              href="tel:0500000000"
+              href="tel:+966509641986"
               className="inline-flex items-center gap-3 bg-white text-deep-navy px-8 py-4 rounded-pill text-lg font-medium hover:bg-white/90 transition-all duration-300 hover:scale-[0.98] active:scale-95 shadow-card"
             >
               <Phone className="w-5 h-5" />
               <span>اتصل الآن</span>
             </a>
             <a
-              href="https://wa.me/966500000000"
+              href="https://wa.me/966509641986"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-gold text-deep-navy px-8 py-4 rounded-pill text-lg font-medium hover:bg-gold/90 transition-all duration-300 hover:scale-[0.98] active:scale-95 shadow-card"

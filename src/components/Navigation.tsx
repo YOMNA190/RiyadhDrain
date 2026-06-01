@@ -62,7 +62,7 @@ export default function Navigation() {
         </div>
 
         <a
-          href="tel:0500000000"
+          href="tel:+966509641986"
           className="flex items-center gap-2 bg-clean-blue text-white px-6 py-2.5 rounded-pill text-sm font-medium hover:bg-clean-blue/90 transition-all duration-300 hover:scale-[0.98] active:scale-95"
         >
           <Phone className="w-4 h-4" />
