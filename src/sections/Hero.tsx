@@ -18,21 +18,6 @@ export default function Hero() {
     const buttons = buttonsRef.current;
     if (!section || !title || !subtitle || !buttons) return;
 
-    // Split text into characters
-    const text = title.textContent || '';
-    title.innerHTML = '';
-    const chars: HTMLSpanElement[] = [];
-    for (let i = 0; i < text.length; i++) {
-      const span = document.createElement('span');
-      span.textContent = text[i];
-      span.style.display = 'inline-block';
-      span.style.opacity = '0';
-      span.style.transform = 'scale(0.5)';
-      if (text[i] === ' ') span.style.width = '0.3em';
-      title.appendChild(span);
-      chars.push(span);
-    }
-
     const tl = gsap.timeline({
       scrollTrigger: {
         trigger: section,
@@ -43,13 +28,13 @@ export default function Hero() {
       },
     });
 
-    tl.to(
-      chars,
+    tl.fromTo(
+      title,
+      { opacity: 0, y: 50 },
       {
         opacity: 1,
-        scale: 1,
-        stagger: 0.05,
-        ease: 'none',
+        y: 0,
+        ease: 'power2.out',
       },
       0
     );
