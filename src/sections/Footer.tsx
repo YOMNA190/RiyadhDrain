@@ -83,15 +83,15 @@ export default function Footer() {
           </p>
           <div className="flex flex-wrap items-center justify-center gap-4">
             <a
-              href="tel:+966535508075"
-              onClick={() => (window as any).gtag_report_conversion?.('tel:+966535508075')}
+              href="tel:+966509641986"
+              onClick={() => (window as any).gtag_report_conversion?.('tel:+966509641986')}
               className="inline-flex items-center gap-3 bg-clean-blue text-white px-10 py-5 rounded-pill text-xl font-medium hover:bg-clean-blue/90 transition-all duration-300 hover:scale-[0.98] active:scale-95 shadow-card"
             >
               <Phone className="w-6 h-6" />
               <span>اتصل الآن</span>
             </a>
             <a
-              href="https://wa.me/966535508075"
+              href="https://wa.me/966509641986"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-gold text-deep-navy px-10 py-5 rounded-pill text-xl font-medium hover:bg-gold/90 transition-all duration-300 hover:scale-[0.98] active:scale-95 shadow-card"
@@ -123,15 +123,15 @@ export default function Footer() {
               </p>
               <div className="flex items-center gap-3">
                 <a
-                  href="tel:+966535508075"
-                  onClick={() => (window as any).gtag_report_conversion?.('tel:+966535508075')}
+                  href="tel:+966509641986"
+                  onClick={() => (window as any).gtag_report_conversion?.('tel:+966509641986')}
                   className="w-10 h-10 rounded-full bg-clean-blue/20 flex items-center justify-center hover:bg-clean-blue/40 transition-colors duration-300"
                   aria-label="اتصل بنا"
                 >
                   <Phone className="w-4 h-4 text-clean-blue" />
                 </a>
                 <a
-                  href="https://wa.me/966535508075"
+                  href="https://wa.me/966509641986"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full bg-gold/20 flex items-center justify-center hover:bg-gold/40 transition-colors duration-300"
@@ -184,7 +184,7 @@ export default function Footer() {
                 <li className="flex items-start gap-3">
                   <Phone className="w-5 h-5 text-clean-blue flex-shrink-0 mt-0.5" />
                   <div>
-                    <p className="text-white text-sm">053-550-8075</p>
+                    <p className="text-white text-sm">050-964-1986</p>
                     <p className="text-white/40 text-xs">اتصل الآن</p>
                   </div>
                 </li>
@@ -228,7 +228,7 @@ export default function Footer() {
 
       {/* Floating WhatsApp button */}
       <a
-        href="https://wa.me/966535508075"
+        href="https://wa.me/966509641986"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 left-6 z-50 w-16 h-16 bg-[#25D366] rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform duration-300"
